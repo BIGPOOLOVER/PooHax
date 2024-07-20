@@ -1,4 +1,5 @@
 -- yeah im gonna be honest this is all skidded
+local req = http_request or request or syn.request
 
 local response = req({
     Url = "https://raw.githubusercontent.com/hezzexx/scripts/main/Games/" .. game.PlaceId .. ".lua",
