@@ -5,7 +5,8 @@ local response = req({
     Method = "GET"
 })
 
-  loadstring(response.Body)()
+if response.Body ~= "404: Not Found" then
+    loadstring(response.Body)()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "ermmm like what the derp",
