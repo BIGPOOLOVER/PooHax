@@ -1,14 +1,17 @@
--- im dumb as fuck and this little script is broken and ill see if i can fix it
-if game.PlaceId == 13987158269 then
-while true do
-	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-738, 73, -549)
-wait(0.1)
-pl.CFrame = location
-wait(4)
-else game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "oh nah brah",
-        Text = "nah brah wtf brah this game dont work brah wtf",
+-- yeah im gonna be honest this is all skidded
+
+local response = req({
+    Url = "https://raw.githubusercontent.com/hezzex/scripts/main/Games/" .. game.PlaceId .. ".lua",
+    Method = "GET"
+})
+
+  loadstring(response.Body)()
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "ermmm like what the derp",
+        Text = "i dont have a script for this game brah wtf brah",
         Duration = 5
     })
+
+    return
 end
