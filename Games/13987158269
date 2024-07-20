@@ -3,7 +3,6 @@ end
     while true do
         local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-738, 73, -549)
-wait(0.1)
 pl.CFrame = location
 wait(4)
     end
