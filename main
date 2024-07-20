@@ -1,3 +1,4 @@
+-- im dumb as fuck and this little script is broken and ill see if i can fix it
 if game.PlaceId == 13987158269 then
 while true do
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
