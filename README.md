@@ -1,7 +1,6 @@
-# ermmmm..
-I'm dumb and currently learning lua, most of these scripts are tests and probably wont work well.
-anyways heres the little wannabe script hub
+# ermmmm.. BETA BRANCH!!!!!!!!!
+i know nobody ever gonna read this, but this is just for testing new things
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/scripts/main/loader",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/scripts/beta/loader",true))()
 ```
 just a little project
