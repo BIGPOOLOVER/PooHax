@@ -1,3 +1,5 @@
+-- only worked when executed dirrectly from source?
+-- was on Solara so
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
