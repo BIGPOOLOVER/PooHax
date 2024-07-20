@@ -4,3 +4,4 @@ anyways heres the little wannabe script hub
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/scripts/main/loader",true))()
 ```
+just a little project
