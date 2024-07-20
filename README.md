@@ -4,4 +4,3 @@ anyways heres the little wannabe script hub
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/scripts/main/main",true))()
 ```
-# Works On Celery & Solara
