@@ -1,3 +1,4 @@
+-- god its finally fixed
 if game.PlaceId == 13987158269 then
 end
     while true do
