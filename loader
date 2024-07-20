@@ -1,4 +1,4 @@
--- yeah im gonna be honest this is all skidded i have no idea what to do im doing
+-- yeah im gonna be honest this is all skidded i have no idea what to do
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
