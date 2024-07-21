@@ -1,5 +1,5 @@
 -- only worked when executed dirrectly from source?
--- was on Solara so
+-- UPDATE: I'm a retard and forgot to change the url in the loader to the beta branch
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
