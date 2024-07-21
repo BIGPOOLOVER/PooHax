@@ -38,11 +38,12 @@ local Toggle = Tab:CreateToggle({
    Flag = "Toggle1",
    Callback = function(GlassBridgeFarm)
    local GlassBridgeFarm
-    while true do
+         while true do
         local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-738, 73, -549)
 pl.CFrame = location
-wait(4)                  
+wait(4)
+    end
     endFarm = true
     end
 
