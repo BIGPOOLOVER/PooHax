@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, 
-      FileName = "Big Hub"
+      FileName = "PooHax"
    },
    Discord = {
       Enabled = false,
@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Main", 4483362458)
 local Section = Tab:CreateSection("Farms")
 Section:Set("Farms")
 
