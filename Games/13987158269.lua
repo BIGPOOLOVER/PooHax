@@ -1,6 +1,6 @@
 -- only worked when executed dirrectly from source?
 -- UPDATE: I'm a retard and forgot to change the url in the loader to the beta branch
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "PooHax",
