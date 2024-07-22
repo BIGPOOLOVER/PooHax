@@ -65,7 +65,10 @@ local Slider = Tab:CreateSlider({
    CurrentValue = 16,
    Flag = "Slider1", 
    Callback = function(Value)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+   while true do
+       task.wait(nil)
+	   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+   end
    
    end,
 })
@@ -75,9 +78,9 @@ Rayfield:Notify({
    Content = "This is more of like a test than an actual functional product",
    Duration = 6.5,
    Image = 4483362458,
-   Actions = { -- Notification Buttons
+   Actions = { 
       Ignore = {
-         Name = "Okay!",
+         Name = "ok brah",
          Callback = function()
          print("The user tapped Okay!")
       end
