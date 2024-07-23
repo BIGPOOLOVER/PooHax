@@ -34,7 +34,7 @@ Section:Set("Teleports")
 local Button = Tab:CreateButton({
    Name = "Criminal Base",
    Callback = function(crimBase)
-   crimBase = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/Games/Prison%20Life/crimBase.lua",true))()
+   crimBase = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Prison%20Life/crimBase.lua",true))()
    
    end,
 })
@@ -42,7 +42,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Armory",
    Callback = function(tpArmory)
-   tpArmory = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/Games/Prison%20Life/tpArmory.lua",true))()
+   tpArmory = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Prison%20Life/tpArmory.lua",true))()
    
    end,
 })
@@ -50,7 +50,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Prison",
    Callback = function(teleportPrison)
-   teleportPrison = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/Games/Prison%20Life/teleportPrison.lua",true))()
+   teleportPrison = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Prison%20Life/teleportPrison.lua",true))()
    
    end,
 })
