@@ -6,3 +6,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/PooHax/main/l
 ```
 # Changelog
 - added Prison Life to PooHax
+- added a toggleable Auto-Farm in the Glass Bridge game
+- added a Walkspeed slider in the Glass Bridge Game
+- added Infinite Jumping to the Glass Bridge Game
+- added Teleporting to the VIP area in the Glass Bridge Game
+# More Soon!
