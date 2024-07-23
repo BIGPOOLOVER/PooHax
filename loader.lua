@@ -7,7 +7,7 @@ end
 local req = http_request or request or syn.request
 
 local response = req({
-    Url = "https://raw.githubusercontent.com/hezzexx/PooHax/main/Games/" .. game.PlaceId .. ".lua",
+    Url = "https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/main/Games/" .. game.PlaceId .. ".lua",
     Method = "GET"
 })
 
