@@ -8,11 +8,7 @@ anyways heres the little wannabe script hub
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/main/loader.lua",true))()
 ```
-# Changelog
-- added Prison Life to PooHax
-- added a toggleable Auto-Farm in the Glass Bridge game
-- added a Walkspeed slider in the Glass Bridge Game
-- added Infinite Jumping to the Glass Bridge Game
-- added Teleporting to the VIP area in the Glass Bridge Game
-
+# Changelog 7/23/24
+- Removed teleporting back to spawn button in the Glass Bridge Game, was only used to get back to spawn after going to VIP area
+- Added removing VIP doors button in the Glass Bridge Game, no longer needed teleporting back to spawn
 # More Soon!
