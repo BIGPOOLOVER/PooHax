@@ -1,4 +1,4 @@
--- looking for the actual PooHax code?: https://github.com/hezzexx/Actually-PooHax
+-- looking for the actual PooHax code?: https://github.com/BIGPOOLOVER/Actually-PooHax
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 
 local Window = Rayfield:CreateWindow({
@@ -35,7 +35,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1",
    Callback = function(Value)
-   Value = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/glassBridge.lua",true))()
+   Value = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/glassBridge.lua",true))()
    
    end,
 })
@@ -61,7 +61,7 @@ local Slider = Tab:CreateSlider({
 local Button = Tab:CreateButton({
    Name = "Infinite Jump",
    Callback = function(infJump)
-   infJump = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/General/infJump.lua",true))()
+   infJump = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/General/infJump.lua",true))()
 
    end,
 })
@@ -69,7 +69,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Teleport to VIP Area",
    Callback = function(vipArea)
-   vipArea = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/vipArea.lua",true))()
+   vipArea = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/vipArea.lua",true))()
 
    end,
 })
@@ -77,7 +77,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Teleport to Spawn",
    Callback = function(Spawn)
-   Spawn = loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/spawn.lua",true))()
+   Spawn = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/spawn.lua",true))()
 
    end,
 })
