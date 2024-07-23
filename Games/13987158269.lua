@@ -1,6 +1,21 @@
 -- looking for the actual PooHax code?: https://github.com/BIGPOOLOVER/Actually-PooHax
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 
+Rayfield:Notify({
+   Title = "Do NOT use the Auto-Farm",
+   Content = "The Auto-Farm is currently very broken and will continue to work even after the toggle is off",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "alright brah",
+         Callback = function()
+         print("dont do it pls")
+      end
+   },
+},
+})
+
 local Window = Rayfield:CreateWindow({
    Name = "PooHax | Impossible Squid Game! Glass Bridge!",
    LoadingTitle = "PooHax",
@@ -34,8 +49,8 @@ local Toggle = Tab:CreateToggle({
    Name = "Auto-Farm (Glass Bridge)",
    CurrentValue = false,
    Flag = "Toggle1",
-   Callback = function(Value)
-   Value = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/glassBridge.lua",true))()
+   Callback = function(glassBridge)
+    local glassBridge = true and loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/glassBridge.lua",true))()
    
    end,
 })
