@@ -75,11 +75,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Teleport to Spawn",
-   Callback = function(Spawn)
-   Spawn = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/spawn.lua",true))()
-
+   Name = "Remove VIP Doors",
+   Callback = function(removeVIP)
+   removeVIP = workspace.VIP.VipDoor:Destroy()
+   
    end,
 })
-
-
