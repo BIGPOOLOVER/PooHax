@@ -1,6 +1,7 @@
 # POOHAX PREVIEW
 ![Alt Text](https://github.com/hezzexx/Actually-PooHax/blob/main/ezgif-5-3ecb25d6a7.gif)
 # A LARGE PORTION OF THE POOHAX CODE IS CONTAINED IN https://github.com/hezzexx/Actually-PooHax
+PooHax is actually a joke this isn't really meant to be a good script-hub
 I'm dumb and currently learning lua, most of these scripts are tests and probably wont work well.
 anyways heres the little wannabe script hub
 ```lua
@@ -14,4 +15,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hezzexx/PooHax/main/l
 - added Teleporting to the VIP area in the Glass Bridge Game
 
 # More Soon!
-
