@@ -11,4 +11,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/ma
 # Changelog 7/23/24
 - Removed teleporting back to spawn button in the Glass Bridge Game, was only used to get back to spawn after going to VIP area
 - Added removing VIP doors button in the Glass Bridge Game, no longer needed teleporting back to spawn
+- Most likely changing the UI Lib to Bracket v3.3 in a little (in 2 centuries)
 # More Soon!
