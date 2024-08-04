@@ -2,7 +2,7 @@ warn('Auto-Farm NOT Working')
 
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/bruvzz/ducklibrary/main/src.lua")()
 
-local Win = lib:Window("PooHax | Impossible Squid Game! Glass Bridge!", Color3.fromRGB(225, 45, 45), Enum.KeyCode)
+local Win = lib:Window("PooHax | Impossible Squid Game! Glass Bridge!", Color3.fromRGB(225, 45, 45), Enum.KeyCode.K)
 
 local Tab_1 = Win:Tab('Local')
 Tab_1:Button('Remove VIP Doors', function()
