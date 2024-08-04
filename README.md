@@ -17,4 +17,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/ma
 - Other Repo No Longer Needed
 - Auto-Farm STILL Not Fixed :sob:
 - WalkSpeed Slider Automatically Changes Value Back After Falling
+- You Can Now Open And Close The GUI With K (very buggy, would not recommend using more than twice, messes up the GUI) 
 # More Soon!
