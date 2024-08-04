@@ -9,7 +9,7 @@ anyways heres the little wannabe script hub
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/main/loader.lua",true))()
 ```
 # Changelog 8/4/24 (MM/DD/YY)
-- Switched UI Library to [DuckyLibrary](https://github.com/bruvzz/ducklibrary/tree/main)
+- Switched UI Library to [DuckLibrary](https://github.com/bruvzz/ducklibrary/tree/main)
 - Added Teleports Section to Squid Game Glass Bridge
 - Other Repo No Longer Needed
 - Auto-Farm STILL Not Fixed :sob:
