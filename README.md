@@ -1,5 +1,6 @@
-# POOHAX PREVIEW
-![Alt Text](https://github.com/hezzexx/Actually-PooHax/blob/main/ezgif-5-3ecb25d6a7.gif)
+# Preview Of PooHax
+![Alt Text](https://github.com/BIGPOOLOVER/PooHax/blob/main/images/2024-08-0402-58-55-ezgif.com-video-to-gif-converter.gif)
+
 PooHax is actually a joke this isn't really meant to be a good script-hub, im just using it while im learning lua.
 
 I'm dumb and currently learning lua, most of these scripts are tests and probably wont work well.
