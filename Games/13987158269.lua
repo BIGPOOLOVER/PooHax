@@ -24,7 +24,10 @@ end)
 
 Tab_1:Slider('Walkspeed', 0, 500, 100, function(value)
 
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (value)
+    while true do
+        task.wait(nil)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (value)
+    end
 
 end)
 
