@@ -8,8 +8,8 @@ anyways heres the little wannabe script hub
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/main/loader.lua",true))()
 ```
-# Changelog 7/23/24
-- Removed teleporting back to spawn button in the Glass Bridge Game, was only used to get back to spawn after going to VIP area
-- Added removing VIP doors button in the Glass Bridge Game, no longer needed teleporting back to spawn
-- Most likely changing the UI Lib to Bracket v3.3 in a little (in 2 centuries)
+# Changelog 8/4/24 (MM/DD/YY)
+- Switched UI Library to [DuckyLibrary](https://github.com/bruvzz/ducklibrary/tree/main)
+- Added Teleports Section to Squid Game Glass Bridge
+- Other Repo No Longer Needed
 # More Soon!
