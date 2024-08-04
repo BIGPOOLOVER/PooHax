@@ -1,5 +1,11 @@
 warn('Auto-Farm NOT Working')
 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Auto-Farm Partially Working",
+        Text = "It's kinda broken and will execute forever"
+        Duration = 5
+    })
+
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/bruvzz/ducklibrary/main/src.lua")()
 
 local Win = lib:Window("PooHax", Color3.fromRGB(44, 120, 224), Enum.KeyCode)
