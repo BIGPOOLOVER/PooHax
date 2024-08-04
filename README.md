@@ -11,4 +11,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/PooHax/ma
 - Switched UI Library to [DuckyLibrary](https://github.com/bruvzz/ducklibrary/tree/main)
 - Added Teleports Section to Squid Game Glass Bridge
 - Other Repo No Longer Needed
+- Auto-Farm STILL Not Fixed :sob:
 # More Soon!
