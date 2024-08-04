@@ -1,98 +1,73 @@
--- looking for the actual PooHax code?: https://github.com/BIGPOOLOVER/Actually-PooHax
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
+warn('Auto-Farm NOT Working')
 
-Rayfield:Notify({
-   Title = "Do NOT use the Auto-Farm",
-   Content = "The Auto-Farm is currently very broken and will continue to work even after the toggle is off",
-   Duration = 6.5,
-   Image = 4483362458,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "alright brah",
-         Callback = function()
-         print("dont do it pls")
-      end
-   },
-},
-})
+local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/bruvzz/ducklibrary/main/src.lua")()
 
-local Window = Rayfield:CreateWindow({
-   Name = "PooHax | Impossible Squid Game! Glass Bridge!",
-   LoadingTitle = "PooHax",
-   LoadingSubtitle = "'brah wtf brah' - big poo",
-   ConfigurationSaving = {
-      Enabled = true,
-      FolderName = nil, 
-      FileName = "PooHax"
-   },
-   Discord = {
-      Enabled = false,
-      Invite = "noinvitelink", 
-      RememberJoins = true
-   },
-   KeySystem = false, 
-   KeySettings = {
-      Title = "Untitled",
-      Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided",
-      FileName = "Key",
-      SaveKey = true, 
-      GrabKeyFromSite = false, 
-      Key = {"Hello"} 
-   }
-})
+local Win = lib:Window("PooHax", Color3.fromRGB(44, 120, 224), Enum.KeyCode)
 
-local Tab = Window:CreateTab("Main", 4483362458)
-local Section = Tab:CreateSection("Automation")
+local Tab_1 = Win:Tab('Local')
+Tab_1:Button('Remove VIP Doors', function()
 
-local Toggle = Tab:CreateToggle({
-   Name = "Auto-Farm (Glass Bridge)",
-   CurrentValue = false,
-   Flag = "Toggle1",
-   Callback = function(glassBridge)
-    local glassBridge = true and loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/glassBridge.lua",true))()
-   
-   end,
-})
+    workspace.VIP.VipDoor:Destroy()
 
-local Section = Tab:CreateSection("Extras")
+end)
 
-local Slider = Tab:CreateSlider({
-   Name = "WalkSpeed",
-   Range = {0, 100},
-   Increment = 1,
-   Suffix = "Speed",
-   CurrentValue = 16,
-   Flag = "Slider1", 
-   Callback = function(Value)
-   while true do
-       task.wait(nil)
-	   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
-   end
-   
-   end,
-})
+Tab_1:Button('Infinite Jump', function()
 
-local Button = Tab:CreateButton({
-   Name = "Infinite Jump",
-   Callback = function(infJump)
-   infJump = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/General/infJump.lua",true))()
+    local infJump = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if infJump then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
 
-   end,
-})
+end)
 
-local Button = Tab:CreateButton({
-   Name = "Teleport to VIP Area",
-   Callback = function(vipArea)
-   vipArea = loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGPOOLOVER/Actually-PooHax/main/Games/Squid%20Game%20Glass%20Bridge/vipArea.lua",true))()
+Tab_1:Slider('Walkspeed', 0, 500, 100, function(value)
 
-   end,
-})
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (value)
 
-local Button = Tab:CreateButton({
-   Name = "Remove VIP Doors",
-   Callback = function(removeVIP)
-   removeVIP = workspace.VIP.VipDoor:Destroy()
-   
-   end,
-})
+end)
+
+local Tab_2 = Win:Tab('Teleports')
+Tab_2:Button('Teleport to VIP Area', function()
+
+    local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+local vipArea = CFrame.new(-752, -3, 815)
+player.CFrame = vipArea
+
+end)
+
+Tab_2:Button('Teleport to Obbies', function()
+
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-738, -2, 960)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+pl.CFrame = location
+
+end)
+
+Tab_2:Button('Teleport to Spawn', function()
+
+    local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+local Spawn = CFrame.new(-748, -2, 770)
+player.CFrame = Spawn
+
+end)
+
+local Tab_3 = Win:Tab('Farms')
+Tab_3:Toggle('Auto-Farm (Glass Bridge)', false, function(value) -- (text, default, callback) --
+
+    while true do
+    local plr = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local autofarmgb = CFrame.new(-738, 73, -549)
+    plr.CFrame = autofarmgb
+    wait(4)
+    print(value)
+    if false then
+        break
+    end
+end
+print(value)
+
+end)
+
