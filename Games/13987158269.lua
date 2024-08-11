@@ -66,11 +66,10 @@ Tab_3:Toggle('Auto-Farm (Glass Bridge)', false, function(value) -- (text, defaul
     plr.CFrame = autofarmgb
     wait(4)
     print(value)
-    if false then
+    if Tab_3:Toggle = false then
         break
     end
 end
-print(value)
 
 end)
 
