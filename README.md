@@ -1,3 +1,6 @@
+# THE DEATH OF POOHAX
+We all knew this was coming, so i'm just gonna archive this repo cause no actual changes have been made to it in over half a year, and nobody cares about this!!! (including me)
+
 # Preview Of PooHax
 ![Alt Text](https://github.com/BIGPOOLOVER/PooHax/blob/main/images/2024-08-0402-58-55-ezgif.com-video-to-gif-converter.gif)
 
