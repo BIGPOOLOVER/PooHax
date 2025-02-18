@@ -1,4 +1,5 @@
 -- yeah im gonna be honest this is all skidded i have no idea what to do
+-- came back like 8 years later to update that this is made by kitzoon (i think) so shoutout to him!! https://github.com/kitzoon
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
